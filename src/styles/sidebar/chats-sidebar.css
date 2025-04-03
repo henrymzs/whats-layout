@@ -1,0 +1,46 @@
+.chat-tile {
+    display: flex;
+    color: var(--text-secondary);
+    height: 72px;
+    position: relative;
+    margin-bottom: 0;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.chat-tile:hover {
+    background-color: var(--primary);
+    cursor: pointer;
+}
+
+.chat-tile img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 0px 5px 0px 13px;
+    object-fit: cover;
+}
+
+.chat-tile-details {
+    width: 80%;
+}
+
+.chat-tile-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat-message-time {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.chat-tile-title:first-child {
+    color: var(--text-primary-strong);
+    font-size: 17px;
+}
+
+.chat-tile-title:nth-child(2) {
+    font-size: 12px;
+  }
