@@ -7,15 +7,6 @@
     <title>Mensagens</title>
     <link rel="stylesheet" href="./src/styles/index.css">
 </head>
-
-<style>
-    i {
-        font-size: 22px;
-        color: blue;
-        background-color: blue;
-    }
-</style>
-
 <body>
 
     <div class="container_global">
@@ -25,7 +16,8 @@
 
                 <aside class="aside">
                     <header class="aside-header">
-                        <img decoding="async" src="https://picsum.photos/id/10/50" alt="" class="avatar" id="profile-image">
+                        <img decoding="async" src="https://picsum.photos/id/10/50" alt="" class="avatar"
+                            id="profile-image">
                         <div class="toolbar">
                             <img src="./src/assets/do-utilizador.png" alt="">
                             <img src="./src/assets/comentario-alt.png" alt="">
@@ -36,7 +28,8 @@
                     <section class="sidebar-content">
                         <div class="chats-list">
                             <div class="chat-tile">
-                                <img decoding="async" src="https://picsum.photos/id/103/50" alt="" class="chat-tile-avatar">
+                                <img decoding="async" src="https://picsum.photos/id/103/50" alt=""
+                                    class="chat-tile-avatar">
                                 <div class="chat-tile-details">
                                     <div class="chat-tile-title">
                                         <span>Backup</span>
@@ -88,7 +81,8 @@
                             </div>
 
                             <div class="chat-tile">
-                                <img decoding="async" src="./src/assets/Cristiano-Ronaldo.jpg" alt="" class="chat-tile-avatar">
+                                <img decoding="async" src="./src/assets/Cristiano-Ronaldo.jpg" alt=""
+                                    class="chat-tile-avatar">
                                 <div class="chat-tile-details">
                                     <div class="chat-tile-title">
                                         <span>Cristiano Ronaldo</span>
@@ -101,7 +95,8 @@
                             </div>
 
                             <div class="chat-tile">
-                                <img decoding="async" src="./src/assets/lebron-james.png" alt="" class="chat-tile-avatar">
+                                <img decoding="async" src="./src/assets/lebron-james.png" alt=""
+                                    class="chat-tile-avatar">
                                 <div class="chat-tile-details">
                                     <div class="chat-tile-title">
                                         <span>Lebron James</span>
@@ -127,20 +122,8 @@
                             </div>
 
                             <div class="chat-tile">
-                                <img decoding="async" src="https://picsum.photos/id/104/50" alt="" class="chat-tile-avatar">
-                                <div class="chat-tile-details">
-                                    <div class="chat-tile-title">
-                                        <span>Allen Inverson</span>
-                                        <span>00:00 PM</span>
-                                    </div>
-                                    <div class="chat-title-subtitle">
-                                        <span>Iverson: Eu sou a resposta!</span>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="chat-tile">
-                                <img decoding="async" src="./src/assets/kylian-mbappe.jpg" alt="" class="chat-tile-avatar">
+                                <img decoding="async" src="./src/assets/kylian-mbappe.jpg" alt=""
+                                    class="chat-tile-avatar">
                                 <div class="chat-tile-details">
                                     <div class="chat-tile-title">
                                         <span>Mbappe</span>
@@ -154,7 +137,73 @@
                         </div>
                     </section>
                 </aside>
-                <section class="section"></section>
+
+
+                <section id="chat-window">
+                    <header id="chat-window-header">
+                        <img decoding="async" src="https://picsum.photos/id/103/50" alt="" class="avatar"
+                            id="profile-image">
+                        <div id="active-chat-details">
+                            <h3>Os Parças</h3>
+                            <div class="info">Você e outras 4 pessoas</div>
+                        </div>
+                        <div class="toolbar">
+                            <img src="./src/assets/do-utilizador.png" alt="">
+                            <img src="./src/assets/comentario-alt.png" alt="">
+                            <img src="./src/assets/definicoes.png" style="width: 16px;" alt="">
+                        </div>
+                    </header>
+
+                    <div id="chat-window-contents">
+                        <div class="chat-message-group">
+                            <img decoding="async" src="https://picsum.photos/50" alt="" class="chat-message-avatar">
+                            <div class="chat-messages">
+                                <div class="chat-message-container">
+                                    <div class="chat-message chat-message-first">
+                                        <div class="chat-message-sender">Guts</div>
+                                        Eai, comos vocês tão?
+                                        <span class="chat-message-time">7:22 am</span>
+                                    </div>
+                                </div>
+                                <div class="chat-message">
+                                    Fazendo alguma coisa?
+                                    <span class="chat-message-time">7:22 am</span>
+                                </div>
+                                <div class="chat-message">
+                                    Estou indo para a praia!
+                                    <span class="chat-message-time">7:23 am</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="chat-message-group">
+                            <img decoding="async" src="https://picsum.photos/id/102/50" alt=""
+                                class="chat-message-avatar">
+                            <div class="chat-messages">
+                                <div class="chat-message-container">
+                                    <div class="chat-message chat-message-first">
+                                        <div class="chat-message-sender">Kaisel</div>
+                                        Muito bom!
+                                        <span class="chat-message-time">7:30 am</span>
+                                    </div>
+                                </div>
+                                <div class="chat-message">
+                                    Quando estiver livre, vou para a praia tambem.
+                                    <span class="chat-message-time">7:30 am</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <footer id="chat-window-footer">
+                        <input type="text" class="message-text-footer" placeholder="Digite sua Mensagem">
+                        <img decoding="async" src="./src/assets/message.png" alt="" class="icon">
+                    </footer>
+                </section>
+
+
+
             </div>
         </main>
         <footer class="footer"></footer>

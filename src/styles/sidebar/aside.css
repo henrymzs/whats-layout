@@ -1,5 +1,5 @@
 .aside {
-    width: 40%;
+    width: 30%;
     height: 100%;
     border-right: 1px solid var(--light-grey);
     display: flex;
@@ -22,6 +22,7 @@
 .toolbar {
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .toolbar img {
@@ -32,3 +33,11 @@
     display: flex;
     flex-direction: column;
 }
+
+
+
+  @media only screen and (max-width: 600px) {
+    .aside {
+        display: none;
+      }
+  }
