@@ -27,5 +27,6 @@ Project Desktop:
 ![Imagem do Projeto Desktop](./src/assets/desktop-project.png)
 
 Project Mobile:
+
 ![Imagem do Projeto Desktop](./src/assets/mobile-project.png)
 
