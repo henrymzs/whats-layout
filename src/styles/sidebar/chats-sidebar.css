@@ -2,8 +2,6 @@
     display: flex;
     color: var(--text-secondary);
     height: 72px;
-    position: relative;
-    margin-bottom: 0;
     column-gap: 10px;
     align-items: center;
 }
@@ -30,17 +28,7 @@
     justify-content: space-between;
 }
 
-.chat-message-time {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.chat-tile-title:first-child {
+.chat-tile-title {
     color: var(--text-primary-strong);
-    font-size: 17px;
+    font-size: 18px;
 }
-
-.chat-tile-title:nth-child(2) {
-    font-size: 12px;
-  }

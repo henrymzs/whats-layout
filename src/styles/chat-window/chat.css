@@ -1,15 +1,10 @@
-#chat-window-contents {
-    flex-grow: 1;
-    padding: 10px;
-}
-
 #chat-window {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
 }
 
-#chat-window-header {
+.chat-window-header {
     color: #ffff;
     display: flex;
     align-items: center;
@@ -17,16 +12,15 @@
     background-color: var(--primary);
 }
 
-#active-chat-details {
+.chat-window-contents {
+    flex-grow: 1;
+    padding: 10px;
+}
+
+.active-chat-details {
     flex-grow: 1;
     margin-left: 8px;    
 }
-
-#active-chat-details .info {
-    color: var(--text-secondary);
-    font-size: 13px;
-}
-
 
 #chat-window-footer {
     display: flex;
